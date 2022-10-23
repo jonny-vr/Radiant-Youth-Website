@@ -6,15 +6,17 @@ body {
     position: sticky;
     top: 0;
     z-index: 10;
+    
 }
 
 .navbar {
-    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    background-image: linear-gradient(to right,#8aaede ,#96b8e5);
     padding: 0 !important;
+    
 }
 
 .navbar-brand img {
-    height: 50px;
+    height: 80px;
     padding-left: 20px;
     background-color: transparent;
 }
@@ -42,15 +44,22 @@ body {
 /*--------- BANNER SECTION --------*/
 
 #banner {
-    background-image: linear-gradient(to right, #a517ba, #5f1782);
-    color: #fff;
+    /* background-image: linear-gradient(to right, #a517ba, #5f1782); */
+    background-image: url(images/gruppenbild_summersplash_22.jpeg);
+    background-size: cover;
+    color: #000;
     padding-top: 5%;
+    
+}
+#banner-container {
+    height: 1000px;
 }
 
 .youth-title {
     font-size: 40px;
     font-weight: 600;
-    margin-top: 100px;
+    margin-top: 0px;
+    color: #000;
 }
 
 .play-btn {
@@ -63,11 +72,12 @@ body {
 }
 
 #banner a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 
 .bottom-img {
+    margin-top: 400px;
     width: 100%;
 }
 
@@ -78,8 +88,10 @@ body {
 }
 
 .service-img {
-    width: 100px;
+    width: 220px;
     margin-top: 20px;
+    border-radius: 10px;
+    
 }
 
 .services {
@@ -95,7 +107,7 @@ body {
 
 .title::before {
     content: '';
-    background-color: #7b1798;
+    background-color: #8aaede;
     height: 5px;
     width: 200px;
     margin-left: auto;
@@ -122,7 +134,7 @@ body {
     padding: 8px 25px;
     border: none;
     border-radius: 20px;
-    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    background-image: linear-gradient(to right,#8aaede ,#96b8e5);
 }
 
 /*----------about-us section-----------*/
@@ -141,6 +153,12 @@ body {
 
 #about-us ul li {
     margin: 10px 0px;
+
+}
+#about-us img {
+    border-radius: 10px;
+    margin: 50px;
+    width: 80%;
 }
 
 /*---------testimonials section---------*/
@@ -149,7 +167,7 @@ body {
     margin: 100px 0px;
 }
 .testimonials {
-    border-left: 4px solid #7b1798;
+    border-left: 4px solid #8aaede;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -189,7 +207,7 @@ body {
 /*---------footer section------------*/
 
 #footer {
-    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    background-image: linear-gradient(to right,#8aaede ,#96b8e5);
     color: #fff;
 
 }
@@ -222,7 +240,7 @@ body {
     border: none;
     margin-top: 25px;
     margin-top: 30px;
-    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    background-image: linear-gradient(to right,#8aaede ,#96b8e5);
 }
 hr{
     background-color: #fff;
